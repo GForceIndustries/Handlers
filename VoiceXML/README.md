@@ -10,7 +10,7 @@ Calls that match a VoiceXML application are routed to the VoiceXML application i
 ## Instructions
 Import the VoiceXMLRouter IP table via Interaction Administrator. This table should be used to match calls to VoiceXML applications by matching the ANI and/or DNIS of the call. One sample entry is created for you, albeit disabled.
 
-A * wildcard can be entered in the ANI and/or DNIS column, or a specific number for an exact match. Enter the URL or path to the VoiceXML script or application in the URI column and set the Active column to Yes to enable that entry.
+A * wildcard can be entered in the ANI and/or DNIS column, or a specific number for an exact match. Enter the URL or path to the VoiceXML script or application in the URI column and set the Active column to Yes to enable that entry. This column allows individual entries to be disabled if necessary, instead of needing to delete them from the table. The Application and Notes columns allow for basic documentation.
 
 Calls will be evaluated for a match in the following order:
 
