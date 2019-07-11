@@ -18,3 +18,7 @@ Calls will be evaluated for a match in the following order:
 2. Matching ANI to any DNIS (\*)
 3. Matching any ANI (\*) to DNIS
 4. Matching any ANI (\*) to any DNIS (\*)
+
+Publish the Sub_VoiceXML handler. You may need to update the reference to the VoiceXMLRouter IP table for the four Table Lookup toolsteps.
+
+Publish the provided customisation points (CustomIncomingCall and CustomInitiateCallRequest), or manually add the Sub_VoiceXMLRouter subroutine to these customisation points if you have pre-existing modifications in place.
