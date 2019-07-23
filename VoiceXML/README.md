@@ -22,3 +22,7 @@ Calls will be evaluated for a match in the following order:
 Publish the Sub_VoiceXML handler. You may need to update the reference to the VoiceXMLRouter IP table for the four Table Lookup toolsteps.
 
 Publish the provided customisation points (CustomIncomingCall and CustomInitiateCallRequest), or manually add the Sub_VoiceXMLRouter subroutine to these customisation points if you have pre-existing modifications in place.
+
+## Warning
+
+The instructions above are guidelines only. Consult your handler developers or engage Genesys Professional Services if assistance is required. You remain responsible for validating the handler changes that you make and the potential impact to your PureConnect deployment.
