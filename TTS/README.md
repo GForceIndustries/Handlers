@@ -15,3 +15,7 @@ Usage: SendCustomNotification TTS Default <sapi|mrcp|itts>
 
 ## Notification_SetMrcpTtsServerStatus
 Sets the specified MRCP TTS server as active or inactive. This is useful for testing purposes on a system with multiple MRCP TTS servers configured.
+
+Usage: SendCustomNotification TTS MRCP <enable|disable> <server>
+  
+This requires that you have already added the MRCP TTS server in Interaction Administrator.
