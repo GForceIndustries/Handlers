@@ -12,3 +12,6 @@ This requires that you have already added the MRCP TTS server and voice in Inter
 Changes the system default TTS provider to the engine specified.
 
 Usage: SendCustomNotification TTS Default <sapi|mrcp|itts>
+
+## Notification_SetMrcpTtsServerStatus
+Sets the specified MRCP TTS server as active or inactive. This is useful for testing purposes on a system with multiple MRCP TTS servers configured.
