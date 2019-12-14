@@ -7,3 +7,8 @@ PureConnect supports the majority of languages resold by Nuance for their Text t
 Usage: SendCustomNotification TTS Language <server> <voice> <language>
 
 This requires that you have already added the MRCP TTS server and voice in Interaction Administrator.
+
+## Notification_SetDefaultTtsEngine
+Changes the system default TTS provider to the engine specified.
+
+Usage: SendCustomNotification TTS Default <sapi|mrcp|itts>
